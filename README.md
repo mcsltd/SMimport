@@ -22,3 +22,11 @@ EEGLAB plug-ins folder. Restart MATLAB, if it was running during the installatio
 ## Usage
 After installation, you can see a new menu item in the EEGLAB menu bar:
 ```File -> Import data -> Using EEGLAB functions and plugins -> From MCS .SM file```
+
+## Version history
+v. 1.0 + First Release
+v. 1.1 + Critical errors fixed:
+- fix decoding 0 method algorithm
+- add decocode 1 method support (experemental)
+- fix warning missed in non mex decode method
+- fix error on records having more than 128 event types
