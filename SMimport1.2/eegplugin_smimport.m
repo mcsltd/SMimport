@@ -13,7 +13,7 @@
 
 function vers = eegplugin_smimport(fig, trystrs, catchstrs)
 
-vers = 'smimport1.0';
+vers = 'smimport1.2';
 if nargin < 3
     error('eegplugin_sm requires 3 arguments');
 end

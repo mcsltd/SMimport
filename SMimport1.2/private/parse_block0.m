@@ -1,7 +1,7 @@
 function [globinfo, event_desriptions, siginfo] = parse_block0(block)
 % Parsing block0 of SM-file and returns event_desriptions and siginfo
 % globinfo - is a struct with .version and .encoding_method elements;
-% events_descriptions is cell array, where index is type and
+% events_descriptions is cell array, where index is (type+1) and
 % value is name of event; 
 % siginfo is struct array, siginfo's fields consist 
 % of <Attributes> and <Metrics> fileds of <Signal> element of BLOCK0
