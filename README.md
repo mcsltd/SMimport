@@ -25,8 +25,16 @@ After installation, you can see a new menu item in the EEGLAB menu bar:
 
 ## Version history
 v. 1.0 + First Release
+
 v. 1.1 + Critical errors fixed:
 - fix decoding 0 method algorithm
 - add decocode 1 method support (experemental)
 - fix warning missed in non mex decode method
 - fix error on records having more than 128 event types
+
+v. 1.2 + Enhanced support for complicated SM records and error fixed:
+- added support of records with channels without data
+- more information in channel labels
+- support of records with different channels start/stop time
+- polite output of warnings
+- fixed bug when missed data gap filled with garbage data 
